@@ -10,23 +10,16 @@ Instrucciones de ejecución:
 
 El usuario debera seleccionar la opcion 1 para poder generar los saldos aleatorios a 10 clientes, de no ser asi el progamara le arrojara un mesaje indicando que debe seleccionar dicha opcion.
 
-Al generar los saldos alearotios el usuario podra interactuar con las siguientes opciones
-
-
-
-
-
-
-
+Al generar los saldos alearotios el usuario podra interactuar con las opciones siguientes.
 
 
 Este Programa hace lo siguiente:
 
-* Genera saldos aleatorios para 10 clientes.
-* Clasifica los saldos en tres rangos: bajos, medios y altos.
-* Calcula y muestra estadísticas avanzadas sobre los saldos (saldo más alto, saldo más bajo, saldo promedio y media geométrica).
-* Genera un reporte detallado de saldos con deducciones y saldo neto, exportándolo a un archivo CSV.
-* Ofrece una opción para salir del programa con un mensaje de despedida.
+* Opcion 1: Genera saldos aleatorios para 10 clientes.
+* Opcion 2: Clasifica los saldos en tres rangos: bajos, medios y altos.
+* Opcion 3: Calcula y muestra estadísticas avanzadas sobre los saldos (saldo más alto, saldo más bajo, saldo promedio y media geométrica).
+* Opcion 4: Genera un reporte detallado de saldos con deducciones y saldo neto, exportándolo a un archivo CSV.
+* Opcion 5: Ofrece una opción para salir del programa con un mensaje de despedida.
 
 
 
@@ -39,13 +32,13 @@ Procesos del Programa:
 * math.prod: Para calcular el producto de una lista de números (útil para la media geométrica).
 
 2. Generar Saldos Aleatorios:
-* Se genera un diccionario donde las claves son nombres y los valores son saldos aleatorios enteros entre 1000 y 5000.
+* Se genera un diccionario donde las claves son nombres y los valores son saldos aleatorios enteros entre 100000 y 500000.
 
 3. Clasificar Saldos:
 * Se clasifican los saldos en tres categorías: bajos, medios y altos, basados ​​en los valores de los saldos.
 
 4. Calculadora Media Geométrica:
-* Calcula la media geométrica de los saldos usando "prod" y el tamaño de la lista de saldos.
+* Calcula la media geométrica de los saldos usando "math.prod" y el tamaño de la lista de saldos.
 
 5. Calcular estadísticas:
 * Calcula y devuelve el saldo más alto, el saldo más bajo, el saldo promedio y la media geométrica de los saldos.
@@ -59,11 +52,11 @@ Procesos del Programa:
 * Muestra el menú de opciones para el usuario.
 
 8. Ejecutar la Opción Seleccionada:
-1.Asignar saldos aleatorios
-2.Clasificar Saldos
-3.Ver estadísticas
-4.Generar reporte de saldos
-5.Salir
+* 1.Asignar saldos aleatorios
+* 2.Clasificar Saldos
+* 3.Ver estadísticas
+* 4.Generar reporte de saldos
+* 5.Salir
 
 9. Función Principal:
 * Definir los nombres de los clientes.
