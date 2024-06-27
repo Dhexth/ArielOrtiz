@@ -1,13 +1,16 @@
 # ArielOrtiz
 Instrucciones de ejecución:
-Se despliega "Menu de opciones" a seleccionar por el usuario.
+1. Se despliega "Menu de opciones" a seleccionar por el usuario.
+
 - opcion 1: Asigna saldos aleatorios
 - opcion 2: Clasifica los saldos
 - opcion 3: Ver estadisticas
 - opcion 4: Genera reporte de saldos
 - opcion 5: Salir
 
-El usuario debera 
+El usuario debera seleccionar la opcion 1 para poder generar los saldos aleatorios a 10 clientes, de no ser asi el progamara le arrojara un mesaje indicando que debe seleccionar dicha opcion.
+
+Al generar los saldos alearotios el usuario podra interactuar con las siguientes opciones
 
 
 
