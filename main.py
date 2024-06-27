@@ -4,7 +4,7 @@ import csv
 from math import prod
 
 def generar_saldos(nombres):
-    saldos = {nombre: random.randint(100000, 500000) for nombre in nombres}
+    saldos = {nombre: random.randint(100, 500000) for nombre in nombres}
     return saldos
 
 def clasificar_saldos(saldos):
